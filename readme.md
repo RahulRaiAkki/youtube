@@ -20,7 +20,7 @@ CREATE TABLE `videos` (
   `etag` varchar(99) DEFAULT NULL,
   `title` varchar(99) DEFAULT NULL,
   `snippet` mediumtext CHARACTER SET utf8mb4 COLLATE utf8mb4_bin DEFAULT NULL,
-  `channel_id` varchar(999) DEFAULT NULL,
+  `channel_id` varchar(99) DEFAULT NULL,
   `stats` mediumtext DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `key_UNIQUE` (`youtube_id`) USING HASH,
